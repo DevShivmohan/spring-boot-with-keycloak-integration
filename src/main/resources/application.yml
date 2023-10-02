@@ -1,0 +1,7 @@
+# Realm configuration from keycloak
+keycloak:
+  realm: my-realm # Realm name
+  auth-server-url: http://localhost:8081 # keycloak server url
+  resource: shiv-spring-keycloak # keycloak client id
+  public-client: true
+  bearer-only: true
